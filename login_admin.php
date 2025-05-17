@@ -55,8 +55,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
-
 <style>
 body {
     font-family: Arial, sans-serif;

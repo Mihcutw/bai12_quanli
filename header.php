@@ -20,13 +20,9 @@ if (session_status() == PHP_SESSION_NONE) {
     <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     <nav>
         <ul>
-            <!-- Điều chỉnh link Trang Chủ dựa trên trạng thái đăng nhập -->
-            <li><a href="products.php">Cửa Hàng</a></li>
-            <li><a href="cart.php">Giỏ Hàng </a></li>
             <?php
             // Thêm Dashboard và Trang Cá Nhân nếu đã đăng nhập
             if (isset($_SESSION['user'])) {
-                echo '<li><a href="dashboard.php">Bảng điều khiển</a></li>';
                 echo '<li><a href="profile.php">Trang Cá Nhân</a></li>';
             }
             // Hiển thị Đăng Xuất hoặc Đăng Nhập

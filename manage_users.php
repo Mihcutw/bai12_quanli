@@ -87,8 +87,6 @@ try {
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
-
 <style>
 .manage-users-wrapper {
     min-height: 100vh;

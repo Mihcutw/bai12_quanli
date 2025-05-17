@@ -75,12 +75,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit" class="btn-add-admin">
                 <span class="btn-icon">+</span> Tạo Admin
             </button>
+            <a href="manage_users.php" class="btn-manage-users">
+                <span class="btn-icon">👤</span> Quản Lý Tài Khoản
+            </a>
         </form>
     </div>
 </div>
-
-<?php include 'footer.php'; ?>
-
 <style>
 body {
     font-family: Arial, sans-serif;
@@ -169,6 +169,31 @@ input::placeholder {
 .btn-add-admin:hover {
     background: linear-gradient(90deg, #00e676, #00c853);
     box-shadow: 0 2px 10px rgba(0, 200, 83, 0.5);
+}
+.btn-manage-users {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(90deg, #2196f3, #1976d2);
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+}
+.btn-manage-users .btn-icon {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn-manage-users:hover {
+    background: linear-gradient(90deg, #1976d2, #2196f3);
+    box-shadow: 0 2px 10px rgba(33, 150, 243, 0.5);
 }
 .error-messages {
     color: red;

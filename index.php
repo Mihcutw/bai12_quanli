@@ -12,7 +12,5 @@ session_start();
             <a href="login.php" class="cta-button login-btn">Đăng Nhập</a>
         </div>
     </div>
-
-    <?php include 'footer.php'; ?>
 </body>
 </html>

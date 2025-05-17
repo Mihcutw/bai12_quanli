@@ -160,5 +160,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     .success-message { color: green; font-weight: bold; text-align: center; margin-bottom: 1rem; }
     .success { background-color: #ddffdd; padding: 10px; border-radius: 5px; }
 </style>
-
-<?php include 'footer.php'; ?>

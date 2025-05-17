@@ -133,5 +133,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     .error-messages { color: red; font-weight: bold; text-align: center; margin-bottom: 1rem; }
     .error { background-color: #ffdddd; padding: 10px; border-radius: 5px; }
 </style>
-
-<?php include 'footer.php'; ?>
